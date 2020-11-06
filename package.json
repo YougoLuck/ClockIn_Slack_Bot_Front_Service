@@ -1,0 +1,18 @@
+{
+  "name": "clockin-front-service",
+  "version": "1.0.0",
+  "description": "Handle Clock In UI And Event Request",
+  "private": true,
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn ./src/app.ts",
+    "prod": "tsc && node ./build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/express": "~4.17.8",
+    "express": "~4.17.1",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "~4.0.5"
+  }
+}
